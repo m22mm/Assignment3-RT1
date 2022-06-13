@@ -31,4 +31,9 @@ Moreover, the user can choose the second case where a specific launch file will 
 
 ## Obstacle Avoider Flowchart
 -----------------------------
+![AvoiderFlowchart](https://user-images.githubusercontent.com/79665691/173417605-eb8755bd-946c-4438-aedf-a041836bf99d.png)
 
+As shown in the obstacle avoider flowchart above, the program divides the obstacle information into three main directions, Front, Front Left and Front Right. The robot will first check if there is any obstacle closer than the predefined distance condition which will lead to stop its motion in the linear direction. However, if there is no close obstacle in the front direction, the robot will check the Front Left and Front Right obstacles, which if were less than the distance threshold, the robot angular motion will be stopped. Moreover, if no close obstacles were detected in any of the 3 main directions, the robot can still be controlled to move in any direction without the need to go backwards.
+
+## Project Possible Improvements
+--------------------------------
