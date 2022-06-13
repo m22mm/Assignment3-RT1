@@ -24,3 +24,6 @@ $ roslaunch assignment3_rt1 UI.launch
 ```
 ## Project Infrastructure Flowchart
 -----------------------------------
+![Flowchart](https://user-images.githubusercontent.com/79665691/173406444-8c001c0b-0036-43c0-afdd-8c9a5381d817.png)
+
+As shown in the above flowchart, the UI.launch file will launch the user interface script which will ask the user for his choice, where he can choose the first case to set a target position which will trigger a callback function in the same script to achieve the goal of this case. Moreover, the user can choose the second or third case which will launch another launch file correspondent to the chosen case, which by itself will run the required nodes. Furthermore, the user can choose to quit the program by entering 4 as input.
