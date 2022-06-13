@@ -26,4 +26,9 @@ $ roslaunch assignment3_rt1 UI.launch
 -----------------------------------
 ![Flowchart](https://user-images.githubusercontent.com/79665691/173406444-8c001c0b-0036-43c0-afdd-8c9a5381d817.png)
 
-As shown in the above flowchart, the UI.launch file will launch the user interface script which will ask the user for his choice, where he can choose the first case to set a target position which will trigger a callback function in the same script to achieve the goal of this case. Moreover, the user can choose the second or third case which will launch another launch file correspondent to the chosen case, which by itself will run the required nodes. Furthermore, the user can choose to quit the program by entering 4 as input.
+As shown in the above flowchart, the UI.launch file will launch the user interface script which will ask the user for his choice, where he can choose the first case to set a target position which will trigger a callback function in the same script to achieve the goal of this case. This function will ask the user to enter the X and Y coordinates of the desired goal for the robot to reach, then this position will be sent to the simulator. 
+Moreover, the user can choose the second case where a specific launch file will be launched to run the correspondent teleop node enabling the user to control the robot using the keyboard. Additionally when the user chooses the third case, another launch file will be launched to run the same teleop node along with an obstacle avoider node enabling the user to control the robot via keyboard while avoiding obstacles. Furthermore, the user can choose to quit the program by entering 4 as input.
+
+## Obstacle Avoider Flowchart
+-----------------------------
+
