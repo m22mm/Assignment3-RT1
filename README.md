@@ -37,3 +37,4 @@ As shown in the obstacle avoider flowchart above, the program divides the obstac
 
 ## Project Possible Improvements
 --------------------------------
+Instead of Laserscan, the camera plugin in the Gazebo simulator can be used to simulate robots' camera functionalities such as depth, which provides the robot with greater insight about its surrounding environment and obstacles. For instance, the kinect camera can be simulated with the objective to improve the obstacle avoidance feature and increase the mapping efficiency of the environment, and thus, making the robot more robust and adaptive to any change that might occur in the environment. For this purpose, Openni Kinect can be used as it also publishes the same topics as the corresponding ROS drivers for the Microsoft Kinect which are specified in the [documentation](https://wiki.ros.org/openni_camera).
